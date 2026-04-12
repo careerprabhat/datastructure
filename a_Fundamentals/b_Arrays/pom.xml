@@ -7,9 +7,10 @@
         <groupId>com.ds</groupId>
         <artifactId>datastructure</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>a_ArraysStrings</artifactId>
+    <artifactId>b_Arrays</artifactId>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>

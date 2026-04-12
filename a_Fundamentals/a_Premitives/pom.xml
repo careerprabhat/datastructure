@@ -3,19 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ds</groupId>
+        <artifactId>datastructure</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
 
-    <groupId>com.ds</groupId>
-    <artifactId>datastructure</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>a_Fundamentals</module>
-        <module>a_Fundamentals/a_Premitives</module>
-        <module>a_Fundamentals/b_Arrays</module>
-        <module>a_Fundamentals/c_HashTables</module>
-        <module>a_Fundamentals/d_RecursionNbacktracking</module>
-        <module>a_Fundamentals/e_Sorting</module>
-    </modules>
+    <artifactId>a_Premitives</artifactId>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
