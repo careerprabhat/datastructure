@@ -2,7 +2,7 @@ package com.ds;
 
 import java.util.Map;
 
-public class A_CountRepeatingWord {
+public class A_wordFrequencyCount {
     public static void main(String[] args) {
         String text = "hello world hello java";
         Map<String, Integer> wordCount = countRepeatingWords(text);
