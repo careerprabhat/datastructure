@@ -16,6 +16,11 @@
         <module>a_Fundamentals/d_RecursionNbacktracking</module>
         <module>a_Fundamentals/e_Sorting</module>
         <module>b_CoreModule</module>
+        <module>b_CoreModule/a_StackNQueue</module>
+        <module>b_CoreModule/b_LinkedList</module>
+        <module>b_CoreModule/c_Tree</module>
+        <module>c_Advance</module>
+        <module>c_Advance/a_DynamicProgramming</module>
     </modules>
 
     <properties>
