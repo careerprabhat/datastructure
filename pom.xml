@@ -21,6 +21,7 @@
         <module>b_CoreModule/c_Tree</module>
         <module>c_Advance</module>
         <module>c_Advance/a_DynamicProgramming</module>
+        <module>a_Fundamentals/f_Searching</module>
     </modules>
 
     <properties>
