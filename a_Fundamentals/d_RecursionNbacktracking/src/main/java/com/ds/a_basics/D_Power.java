@@ -1,4 +1,4 @@
-package com.ds.basics;
+package com.ds.a_basics;
 
 public class D_Power {
     public static void main(String[] args) {

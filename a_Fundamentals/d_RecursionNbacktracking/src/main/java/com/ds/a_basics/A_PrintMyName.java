@@ -1,4 +1,4 @@
-package com.ds.basics;
+package com.ds.a_basics;
 
 public class A_PrintMyName {
     public static void main(String[] args) {

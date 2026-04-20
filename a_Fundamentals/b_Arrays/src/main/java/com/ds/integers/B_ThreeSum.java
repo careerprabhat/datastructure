@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Find all triplets that sum to zero
+ */
+
+
 public class B_ThreeSum {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
@@ -23,7 +28,7 @@ public class B_ThreeSum {
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
-                    result.add(java.util.Arrays.asList(nums[i], nums[left], nums[right]));
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     left++;
                     right--;
 

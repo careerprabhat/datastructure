@@ -1,4 +1,4 @@
-package com.ds.basics;
+package com.ds.a_basics;
 
 public class C_Fibonacci {
     public static void main(String[] args) {

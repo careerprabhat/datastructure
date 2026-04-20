@@ -1,6 +1,6 @@
 package com.ds.nlogn;
 
-public class HeapSort {
+public class C_HeapSort {
     public static void main(String[] args) {
         int[] arr = {12, 11, 13, 5, 6, 7};
         heapSort(arr);
@@ -13,7 +13,7 @@ public class HeapSort {
         int n = arr.length;
 
         // Build heap (rearrange array)
-        for (int i = n / 2 - 1; i >= 0; i--)
+        for (int i = (n/2-1); i >= 0; i--)
             heapify(arr, n, i);
 
         // One by one extract elements from heap
