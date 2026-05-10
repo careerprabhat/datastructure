@@ -10,11 +10,11 @@ public class D_StockBuySell {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
 
-        for (int price : prices) {
-            if (price < minPrice) {
-                minPrice = price; // Update the minimum price
-            } else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice; // Update the maximum profit
+        for (int cur_price : prices) {
+            if (cur_price < minPrice) {
+                minPrice = cur_price; // Update the minimum price
+            } else if ((cur_price - minPrice) > maxProfit) {
+                maxProfit = cur_price - minPrice; // Update the maximum profit
             }
         }
 
