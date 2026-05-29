@@ -18,7 +18,6 @@ public class B_BinarySearch {
 
         while (left <= right) {
             int mid = left + (right - left) / 2; // To avoid overflow
-
             if (arr[mid] == target) {
                 return mid; // Return the index of the target element
             } else if (arr[mid] < target) {
@@ -28,19 +27,5 @@ public class B_BinarySearch {
             }
         }
         return -1; // Return -1 if the target element is not found
-    }
-
-    public static int recursiveBinarySearch(int[] arr, int target, int left, int right) {
-        if (left > right) return -1; // Base case: target not found
-
-        int mid = left + (right - left) / 2; // To avoid overflow
-
-        if (arr[mid] == target) {
-            return mid; // Return the index of the target element
-        } else if (arr[mid] < target) {
-            return recursiveBinarySearch(arr, target, mid + 1, right); // Search in the right half
-        } else {
-            return recursiveBinarySearch(arr, target, left, mid - 1); // Search in the left half
-        }
     }
 }

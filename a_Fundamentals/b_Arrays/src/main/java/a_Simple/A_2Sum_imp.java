@@ -3,7 +3,7 @@ package a_Simple;
 import java.util.HashMap;
 import java.util.Map;
 
-public class A_2Sum {
+public class A_2Sum_imp {
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 

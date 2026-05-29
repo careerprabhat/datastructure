@@ -22,6 +22,8 @@
         <module>c_Advance</module>
         <module>c_Advance/a_DynamicProgramming</module>
         <module>a_Fundamentals/f_Searching</module>
+        <module>c_Advance/d_Trie</module>
+        <module>c_Advance/b_Greedy</module>
     </modules>
 
     <properties>
